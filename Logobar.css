@@ -1,0 +1,46 @@
+.logobar{
+    
+    margin-top: 100px;
+    
+}
+.google{
+    
+}
+.emage-1{
+    padding-left: 200px;
+}
+.emage-2{
+    padding-left: 100px;
+}
+.emage-3{
+    padding-left: 100px;
+}
+.emage-4{
+    padding-left: 100px;
+}
+
+  
+@media screen and (max-width:768px){
+    .logobar{
+        display: block; 
+      
+    }
+    .google{
+       padding-bottom: 50px;
+       padding-left: 100px;
+    }
+    .emage-1{
+        padding-bottom: 50px;
+        padding-left: 100px;
+    }
+    .emage-2{
+        padding-bottom: 50px;
+    }
+    .emage-3{
+        padding-bottom: 50px;
+       
+    }
+    .emage-4{
+        padding-bottom: 50px;
+    }
+}

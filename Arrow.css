@@ -1,0 +1,31 @@
+.containerCol-3{
+    margin-top: 160px;
+}
+.Arr-3{
+    background-color: blueviolet;
+    padding: 30px; 
+}
+.containerCol-2{
+ text-align:center;
+}
+
+@media screen and (max-width :768px){
+    .containerCol-2{
+        display: block;
+        padding-bottom: 50px;
+        text-align:start;
+        margin-left: 100px;
+        
+    }
+    .Arr-1{
+        padding-bottom: 50px; 
+         
+    }
+    .Arr-2{
+        padding-bottom: 50px;  
+    }
+    .Arr-3{
+        padding-bottom: 50px;  
+        
+    }
+}

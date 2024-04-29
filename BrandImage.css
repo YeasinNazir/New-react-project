@@ -1,0 +1,41 @@
+.section-1{ 
+    margin-top: 70px;
+}
+
+.ImageMaking{
+    font-weight: 600;
+}
+.visual{
+    font-weight: 600;
+    font-size: 62px;
+}
+.Learn-more{
+    margin-top: 0px;
+    padding-top: 0px;
+    line-height: 0;
+}
+.Contact-btn{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 40px;
+}
+.pic-1{
+    width: 360px;
+    height: 480px;
+}
+.secondDiv{
+    margin-left: 200px ;
+}
+@media screen and (max-width:768px) {
+    .section-1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .pic-1{
+        margin-left: -100px;
+        margin-top: 20px;
+    }
+    
+}
